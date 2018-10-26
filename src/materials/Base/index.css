@@ -1,0 +1,17 @@
+html,
+body {
+  background-color: #000;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+	color: #111;
+	text-decoration: none;
+}

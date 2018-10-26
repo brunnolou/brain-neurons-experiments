@@ -1,28 +1,54 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Game from "./components/Game";
+import Particles from "./components/Particles";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+    <div>
+      <Route exact path="/" render={props => <Game {...props} mode="dots" />} />
+      <Route
+        exact
+        path="/cursor"
+        render={props => <Game {...props} mode="cursor" />}
+      />
+      <Route
+        path="/vector-field"
+        render={props => <Game {...props} mode="vector" />}
+      />
+      <Route
+        path="/self-motion"
+        render={props => <Game {...props} mode="self-motion" />}
+      />
+      <Route path="/particles" render={props => <Particles {...props} />} />
+      <Route
+        path="/global-motion"
+        render={props => <Particles globalMotion {...props} />}
+      />
+      <Route
+        path="/particles-spatial"
+        render={props => <Particles mode="spatial" {...props} />}
+      />
+
+      <nav>
+        <span>
+          <Link to="/">Game</Link>
+        </span>
+        {" | "}
+        <span>
+          <Link to="/vector-field">Vector Field</Link>
+        </span>
+        {" | "}
+        <span>
+          <Link to="/particles">Particles</Link>
+        </span>
+        {" | "}
+        <span>
+          <Link to="/particles-spatial">spatial</Link>
+        </span>
+      </nav>
+    </div>
+  </Router>
+);
 
 export default App;
