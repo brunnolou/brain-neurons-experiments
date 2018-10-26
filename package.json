@@ -1,12 +1,14 @@
 {
   "name": "brain-neurons-experiments",
   "version": "0.1.0",
+  "homepage": "https://brunnolou.github.io/brain-neurons-experiments",
   "private": true,
   "dependencies": {
     "@popmotion/popcorn": "^0.1.0",
     "boids": "^2.0.0",
     "debounce": "^1.2.0",
     "fps": "0.0.3",
+    "gh-pages": "^2.0.1",
     "mouse-speed": "^2.0.1",
     "pts": "^0.6.2",
     "react": "^16.5.2",
@@ -16,8 +18,11 @@
     "styled-components": "^3.4.9"
   },
   "scripts": {
-    "start": "PORT=3333 react-scripts start",
+    "start": "react-scripts start",
+    "dev": "PORT=3333 react-scripts start && local-ssl-proxy --source 9999 --target 3333",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
