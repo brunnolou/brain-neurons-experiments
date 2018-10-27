@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.a7b06061.chunk.css",
-  "main.js": "/static/js/main.5733d716.chunk.js",
-  "main.js.map": "/static/js/main.5733d716.chunk.js.map",
-  "static/js/1.5800fbb0.chunk.js": "/static/js/1.5800fbb0.chunk.js",
-  "static/js/1.5800fbb0.chunk.js.map": "/static/js/1.5800fbb0.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.a7b06061.chunk.css.map": "/static/css/main.a7b06061.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.5837499e011e056c0a02f7fe5848a196.js": "/precache-manifest.5837499e011e056c0a02f7fe5848a196.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/brain-neurons-experiments/static/css/main.a7b06061.chunk.css",
+  "main.js": "/brain-neurons-experiments/static/js/main.d1fc907d.chunk.js",
+  "main.js.map": "/brain-neurons-experiments/static/js/main.d1fc907d.chunk.js.map",
+  "static/js/1.e32de323.chunk.js": "/brain-neurons-experiments/static/js/1.e32de323.chunk.js",
+  "static/js/1.e32de323.chunk.js.map": "/brain-neurons-experiments/static/js/1.e32de323.chunk.js.map",
+  "runtime~main.js": "/brain-neurons-experiments/static/js/runtime~main.0b8d54ee.js",
+  "runtime~main.js.map": "/brain-neurons-experiments/static/js/runtime~main.0b8d54ee.js.map",
+  "static/css/main.a7b06061.chunk.css.map": "/brain-neurons-experiments/static/css/main.a7b06061.chunk.css.map",
+  "index.html": "/brain-neurons-experiments/index.html",
+  "precache-manifest.7581dc1ebf506a7fe661cc76cf94d30e.js": "/brain-neurons-experiments/precache-manifest.7581dc1ebf506a7fe661cc76cf94d30e.js",
+  "service-worker.js": "/brain-neurons-experiments/service-worker.js"
 }
