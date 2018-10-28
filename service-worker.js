@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/brain-neurons-experiments/precache-manifest.40a6738414d2c20455a9f555e2895fdb.js"
+  "/brain-neurons-experiments/precache-manifest.9689ce46aea9c16d2036b3b184703288.js"
 );
 
 workbox.clientsClaim();
